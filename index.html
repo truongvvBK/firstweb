@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Truong BK</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="105540314682298"
+  theme_color="#20cef5"
+  logged_in_greeting="Hi! I'm Truong! How can we help you?"
+  logged_out_greeting="Hi! I'm Truong! How can we help you?">
+      </div>
+  <div class="top-container ">
+    <div class="top-top">
+      <a href="https://www.facebook.com"><img class="thumb" src="image/thumb.png" alt=""></a>
+      <a href="https://www.facebook.com"><p class="next-thumb" >Truong BK</p></a>
+      <a href="help.html"><p style="position:absolute;right:100px;font-weight:bold;padding-top:20px;color:white">Help</p></a>
+      <a href="about.html"><p style="position:absolute;right:200px;font-weight:bold;padding-top:20px;color:white">About</p></a>
+    </div>
+    <div>
+    <h1>Truong BK</h1>
+    <h2 class="title">programmer 👨‍💻</h2>
+    <img class="mainimage" src="image/mountain.png" alt="">
+    </div>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profileim" src="image/profile.png" alt="">
+      <h2>Hello! </h2>
+      <p class="intro">I'm a junior of Hanoi University of Science and Technology. My hobbies is play soccer and soccer game with my friends. </p>
+
+
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="java-img" src="image/java.png" alt="">
+        <h3>Java </h3>
+        <p>I started learning to program when I was a fresh of HUST cause my major is Computer Science. I know essential things about Java and can make a small application with it.</p>
+      </div>
+      <div class="skill-row">
+        <img class="web-img" src="image/folder.png" alt="">
+        <h3>Web Development</h3>
+        <p>I have been learning html/css/js for a week. I'd like make my own website to share to every body. Then, may be in the future, i will be a fullstack developer.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Do you like soccer as much as me ?</h3>
+      <p class="message" >If so, let's contact with me and talk all day about it!.</p>
+      <a class="btn" href="mailto:vuvantruongns01@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="social-link" href="https://www.facebook.com/Onep.m1203/" target="_blank">Facebook</a>
+    <a href="https://www.facebook.com/Onep.m1203/"> <img class="s-icon" src="image/facebook.png" alt=""></a>
+    <a class="social-link" href="https://github.com/truongvvBK" target="_blank">Github</a>
+    <a href="https://github.com/truongvvBK"><img class="s-icon" src="image/github.png" alt=""></a>
+    <a class="social-link" href="https://www.youtube.com/channel/UCxYVCwOC6GftZuniQ6mSrHw" target="_blank">Youtube channel</a>
+    <a href="https://www.youtube.com/channel/UCxYVCwOC6GftZuniQ6mSrHw"> <img class="s-icon" src="image/youtube.png" alt=""> </a>
+    <p class="copy-right">© 2020 Vu Van Truong.</p>
+  </div>
+</body>
+
+</html>
